@@ -367,7 +367,7 @@ Answer the question based on the retrieved document context.
 """
 
     response = client.chat.completions.create(
-        model="openai/gpt-oss-120b",
+        model="openai/gpt-oss-20b,
         messages=[
             {
                 "role": "system",
